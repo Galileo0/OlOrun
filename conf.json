@@ -1,0 +1,22 @@
+
+{
+    "endPoints":
+    [
+        {
+            "baseUrl": "",
+            "baseUrlStage": "",
+            "stage": "False",
+            "path": "",
+            "method": "POST",
+            "paramters": [{"name":"","type":"int","minLength":12,"maxLength":12},
+                        {"name":"","type":"int","minLength":4,"maxLength":4}],
+            "defaultValidFeilds": {"phone_number":"","verification_code":""},
+            "happyPathStatus": [200,201],
+            "filteredStatus": [422,433],
+            "headers": [{"key":"User-Agent","value":"PostmanRuntime/7.33.0"}]
+        }
+    ],
+    "sqlInection":{"flag":true,"numberOfPayloads":10},
+    "xss":{"flag":false,"numberOfPayloads":10}
+
+}
